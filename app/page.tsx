@@ -49,7 +49,7 @@ export default async function Home({ searchParams }: HomeProps) {
           </section>
         ) : (
           <div className='home_error-container'>
-            <h2 className='text-black text-xl font-bold'>Ooops, no results</h2>
+            <h2 className='text-black text-xl font-bold'>Ooops, nscsco results</h2>
             <p>{allCars?.message}</p>
           </div>
         )}
